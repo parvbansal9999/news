@@ -1,0 +1,123 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: none;
+}
+
+.box{
+    border-radius: 3px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 750px;
+    height: 560px;
+    background: white;
+    overflow: hidden;
+}
+
+.inline-text{
+    color: white;
+    position: absolute;
+    top: 32px;
+    left: 55px;
+}
+
+.inline-text h1{
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.inline-text p{
+    color: rgb(228,228,228);
+    opacity: 0.9; 
+    font-size: 13px;
+    letter-spacing: 1px;
+
+}
+.box1{
+    background: url();
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #28cff0;
+}
+.box-2 .user-id{
+    position: relative;
+    left: 20px;
+    top: 50px;
+    padding: 10px 20px;
+}
+.box-2 .user-id input{
+    width: 100%;
+    height: 40px;
+}
+
+.box-2 .user-data input{
+    color: black;
+    border: none;
+    border-bottom: 1px solid rgb(228,228,228);
+    outline: none;
+    background: none;
+    transition: 0.5s;
+    margin-bottom: 20px;
+}
+
+.box-2 .user-data label{
+    padding: 10px 20px;
+    position: absolute;
+    top: 6px;
+    left: 0px;
+    font-size: 18px;
+    font-weight: 400;
+    pointer-events: none;
+    transition: 0.5s;
+    
+}
+.box-2 .user-data input:focus ~label,
+.box-2 .user-data input:valid ~label{
+    top: -20px;
+    font-size: 12px;
+}
+.box-2 .user-data input:focus{
+    border-bottom: 1px solid #28d9f0;
+}
+.box-2 span a{
+    position: absolute;
+    top: 140px;
+    left: 315px;
+    display: inline;
+    color: #2874f0;
+    font-weight: 600 ;
+}
+
+.box-2 .button input{
+    font-size: 18px;
+    border: none;
+    background: white;
+    height: 50px;
+}
+.user-id p{
+    font-size: 12px;
+    color: rgb(173, 173, 173);
+}
+.box-2 .button input[type=submit]{
+    background: rgb(37, 239, 229);
+border-radius: 2px;
+color: white;
+font-weight: 500;
+font-size: 15px;
+outline: none;
+transition: 0.5s;
+margin-top: none;
+
+}
+
+.box-2 .button input[type=reset]{
+    border-radius: 2px;
+    color: #28dff0;
+    font-weight: 600px;
+    outline: none;
+    transition: 0.5s;
+}
+
